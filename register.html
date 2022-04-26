@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>wf-park 🔓</title>
+  <link rel="stylesheet" href="wpark.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Orelega+One&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section class="register">
+        <h1>Регистрация</h1>
+        <h2>Регистрируйтесь чтобы начать обучение.</h2>
+        <div class="regbox">
+     <div class="send"><h3>Отправка данных</h3></div>
+            <form action="https://formspree.io/f/mwkywlyp" method="POST">
+  <label for="fname" class="name">Имя:</label><br>
+  <input type="text" id="fname" name="fname" placeholder="Саша"><br>
+  <label for="lname" class="name">Почта:</label><br>
+  <input type="email" id="lname" name="lname" placeholder="Email"><br>
+  <p>Выберите направление:</p>
+  <div class="typ">
+  <input type="radio" id="html" name="fav_language" value="English">
+  <label for="html">Английский язык</label><br>
+  <input type="radio" id="css" name="fav_language" value="Programming">
+  <label for="css">Программирование</label><br>
+  <input type="radio" id="javascript" name="fav_language" value="Design">
+  <label for="javascript">Дизайн</label>
+  </div>
+  <br>
+  <div class="button">
+  <button type="submit" class="btn btn-primary">Отправить</button>
+  </div>
+</form> 
+
+        </div>
+        <h5>©2022 wf-park™</h5>
+    </section>
